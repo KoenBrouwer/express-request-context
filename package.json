@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Koen Brouwer",
   "description": "Enable contexts in express Request and Response objects",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
