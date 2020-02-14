@@ -1,7 +1,7 @@
 {
-  "name": "express-context",
+  "name": "express-request-context",
   "version": "1.0.0",
-  "author": "Koen Brouwer",
+  "author": "Koen Brouwer <hi@koenbrouwer.com>",
   "description": "Enable contexts in express Request and Response objects",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
