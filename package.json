@@ -1,6 +1,6 @@
 {
   "name": "express-request-context",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Koen Brouwer <hi@koenbrouwer.com>",
   "description": "Enable contexts in express Request and Response objects",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   "scripts": {
     "prepare": "npm run build",
     "version": "git add -A src",
-    "postversion" : "git push && git push --tags",
+    "postversion": "git push && git push --tags",
     "build": "tsc"
   },
   "keywords": [],
@@ -17,7 +17,10 @@
     "@types/express": "^4.17.2",
     "typescript": "^3.7.5"
   },
-  "repository": {"type": "git", "url": "git@github.com:KoenBrouwer/express-context.git"},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KoenBrouwer/express-context.git"
+  },
   "files": [
     "lib/**/*"
   ]
