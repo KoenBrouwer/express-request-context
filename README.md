@@ -1,4 +1,4 @@
-# express-context
+# express-request-context
 
 A tiny addon to [ExpressJS](https://www.npmjs.com/package/express) to help you pass data along with the Request and Response objects in your route handlers.
 
@@ -7,11 +7,11 @@ A tiny addon to [ExpressJS](https://www.npmjs.com/package/express) to help you p
 This is a [Node.js](https://nodejs.org/en/) package available through the [npm registry](https://nodejs.org/en/).
 Installation into your project is done with the [`npm install` command](https://docs.npmjs.com/downloading-and-installing-packages-locally):
 
-	npm install --save express-context
+	npm install --save express-request-context
 	
 Now add our middleware to your ExpressJS app:
 
-	import expressContext from "express-context";
+	import expressContext from "express-request-context";
 
 	const app = express();
 	
@@ -83,7 +83,7 @@ This package adds a `context` object of type `any` to both the Request and Respo
 
 The only thing you need to do to get started is add the middleware in this package to your ExpressJS app:
 
-	import expressContext from "express-context";
+	import expressContext from "express-request-context";
 
 	const app = express();
 	
@@ -93,7 +93,7 @@ Happy hacking!
 
 # Contributing
 
-Feel free to open an issue or a pull request in the [repo on GitHub](https://github.com/KoenBrouwer/express-context/pulls)!
+Feel free to open an issue or a pull request in the [repo on GitHub](https://github.com/KoenBrouwer/express-request-context/pulls)!
 
 # License
 
