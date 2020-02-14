@@ -17,7 +17,7 @@
     "@types/express": "^4.17.2",
     "typescript": "^3.7.5"
   },
-  "repository": {"type": "git", "url": ""},
+  "repository": {"type": "git", "url": "git@github.com:KoenBrouwer/express-context.git"},
   "files": [
     "lib/**/*"
   ]
